@@ -53,6 +53,7 @@
 		</div>
 	</div>
 	<!--END BANNER-->
+	<!--ADS-->
 	<div class="row">
 		<div class="col-xs-12 col-xl-4 col-lg-4 col-md-4 col-sm-4 ad">
 			<a href="#"><div class="frame">
@@ -82,15 +83,54 @@
 					<h2>Leaders In Potential</h2>
 					<img src="images/leaders.jpg" id="adImage"/>
 					<br>
-					<p>Strong leadership and a wealth of experience guides our company's innovative methods to maximize potential around ever corner.</p>
+					<p>Strong leadership and a wealth of experience guides our company's innovative methods to maximize oppurtunities around ever corner.</p>
 					<a href="#" class="myButton2">Learn More!</a>
-				</div></div>
-			</div>
+				</div>
+			</div></a>
 		</div>
-	</div> 
-	<p>Sample text</p>
 	</div>
-	<div style="padding-bottom: 3000px"></div>
+	<!--END ADS-->
+	<!--CAROUSEL-->
+	<div class="cardiv">
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/futuredata.jpg" alt="Data" class="img-responsive">
+					<div class="carousel-caption">
+						<h4>Our clients experience the future of data management because we are the future of data management.</h4>
+						<h3>Learn More About The Future Of Data Management!</h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/success.jpg" alt="Success" class="img-responsive">
+					<div class="carousel-caption">
+						<h4>When we succeed our clients succeed as our methods prove to find new and efficient ways to manage data.</h4>
+						<h3>Learn More About Our Success Stories!</h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/team.jpg" alt="Team" class="img-responsive">
+					<div class="carousel-caption">
+						<h4>Our successes are dependent on the quality of our team as we have assembled the brightest and most driven minds in the industry under one roof.</h4>
+						<h3>Learn More About Our Team!</h3>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			</a>
+		</div>
+	</div>
+	<!--END CAROUSEL-->
+	<div style="padding-bottom: 300px"></div>
 	<!--FOOTER-->
 	<div class="navbar navbar-inverse navbar-static-bottom" role="navigation">
 		<div class="container">
@@ -102,5 +142,12 @@
 	<!--END FOOTER-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type='text/javascript'>
+    $(document).ready(function() {
+         $('.carousel').carousel({
+             interval: 8000
+         })
+    });    
+</script>
 </body>
 </html>
