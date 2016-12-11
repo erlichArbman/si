@@ -12,6 +12,7 @@ h1 {
 }
 
 .smalltime {
+	background: #B2CED8;
 	min-height: 580px;
 	padding-top: 165px;
 	padding-right: 0px
@@ -277,6 +278,12 @@ h1 {
 	}
 	#carrot{
 		display: none;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	footer a:hover{
+		color: lightblue;
 	}
 }
 
