@@ -18,6 +18,9 @@ h1{
 a:hover {
 	text-decoration: none;
 }
+footer a:hover{
+		color: lightblue;
+}
 .navbar{
 	box-shadow: 0 8px 6px -7px #59625C;
 }
@@ -60,12 +63,6 @@ a:hover {
 	opacity: 0.4;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 459px){
 	#carrot{
 		display: none;
@@ -76,23 +73,11 @@ a:hover {
 	#carrot{
 		display: none;
 	}
-	a:hover {
-		text-decoration: none;
-	}
-	footer a:hover{
-		color: lightblue;
-	}
 }
 
 @media screen and (min-width: 768px){
 	.dropdown:hover .dropdown-menu{
 		display: block;
-	}
-	a:hover {
-		text-decoration: none;
-	}
-	footer a:hover{
-		color: lightblue;
 	}
 	#carrot{
 		background-color: #B1C7E3;

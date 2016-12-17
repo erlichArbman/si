@@ -11,6 +11,13 @@ h1 {
 	color: white;
 }
 
+a:hover {
+		text-decoration: none;
+	}
+footer a:hover{
+	color: lightblue;
+}	
+
 .smalltime {
 	background: #B2CED8;
 	min-height: 580px;
@@ -279,12 +286,6 @@ h1 {
 	#carrot{
 		display: none;
 	}
-	a:hover {
-		text-decoration: none;
-	}
-	footer a:hover{
-		color: lightblue;
-	}
 }
 
 @media screen and (min-width: 768px) {
@@ -313,12 +314,6 @@ h1 {
 	}
 	.myButton:hover {
 		background-color:white;
-	}
-	a:hover {
-		text-decoration: none;
-	}
-	footer a:hover{
-		color: lightblue;
 	}
 	#carrot{
 		background-color: #B1C7E3;
