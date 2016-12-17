@@ -62,7 +62,9 @@ footer a:hover{
 #coworkinghover:hover{
 	opacity: 0.4;
 }
-
+#guy{
+	border-radius: 250px;
+}
 @media screen and (max-width: 459px){
 	#carrot{
 		display: none;
