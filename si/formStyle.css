@@ -39,6 +39,70 @@ a:hover {
 	padding-top: 1px;
 	opacity: 0.9;
 	margin-bottom: 30px;
+	text-align: center;
+}
+form{
+	font-size: 130%;
+}
+input{
+	color: black;
+	padding: 5px;
+	background-color: #FF9042;
+	border-color: #8E3B00;
+	box-sizing: border-box;
+	margin-bottom: 1em;
+}
+input:focus{
+	background-color: white;
+	border-color: black;
+}
+textarea{
+	color: black;
+	max-width: 100%;
+	resize: none;
+	padding: 5px;
+	background-color: #FF9042;
+	border-color: #8E3B00;
+}
+textarea:focus{
+	background-color: white;
+	border-color: black;
+}
+.orange{
+	color: #FE7004;
+}
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #db5400), color-stop(1, #ff9d52));
+	background:-moz-linear-gradient(top, #db5400 5%, #ff9d52 100%);
+	background:-webkit-linear-gradient(top, #db5400 5%, #ff9d52 100%);
+	background:-o-linear-gradient(top, #db5400 5%, #ff9d52 100%);
+	background:-ms-linear-gradient(top, #db5400 5%, #ff9d52 100%);
+	background:linear-gradient(to bottom, #db5400 5%, #ff9d52 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#db5400', endColorstr='#ff9d52',GradientType=0);
+	background-color:#db5400;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:9px 18px;
+	text-decoration:none;
+	border-color: black;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff9d52), color-stop(1, #db5400));
+	background:-moz-linear-gradient(top, #ff9d52 5%, #db5400 100%);
+	background:-webkit-linear-gradient(top, #ff9d52 5%, #db5400 100%);
+	background:-o-linear-gradient(top, #ff9d52 5%, #db5400 100%);
+	background:-ms-linear-gradient(top, #ff9d52 5%, #db5400 100%);
+	background:linear-gradient(to bottom, #ff9d52 5%, #db5400 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9d52', endColorstr='#db5400',GradientType=0);
+	background-color:#ff9d52;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 @media screen and (max-width: 459px) {
 	#carrot{
