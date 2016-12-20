@@ -234,6 +234,11 @@ footer a:hover{
 	padding: 40px;
 }
 
+#logo{
+	max-height: 50px;
+	max-width: 50px;
+}
+
 @media screen and (max-width: 459px) {
 	h1 {
 		top: 90px;
