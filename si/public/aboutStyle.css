@@ -74,6 +74,9 @@ footer a:hover{
 	#carrot{
 		display: none;
 	}
+	html{
+		background: #B2CED8;
+	}
 }
 
 @media screen and (min-width: 460px) and (max-width: 767px){
