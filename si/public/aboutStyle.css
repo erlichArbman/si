@@ -70,6 +70,13 @@ footer a:hover{
 #guy{
 	border-radius: 250px;
 }
+#logoFoot{
+	max-height: 120px;
+	max-width: 120px;
+	padding: 5px;
+	position: relative;
+	right: 50px;
+}
 @media screen and (max-width: 459px){
 	#carrot{
 		display: none;
